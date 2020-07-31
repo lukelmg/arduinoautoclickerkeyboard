@@ -23,7 +23,7 @@ void autoClick() {
   delay(5);
 }
 
-void speedBridge() {
+void bridge() {
   Mouse.click(MOUSE_RIGHT);
   Keyboard.press(KEY_LEFT_SHIFT);
   delay(200); //260//200
@@ -32,7 +32,7 @@ void speedBridge() {
   delay(40); //25//75
 }
 
-void speedBridge2() {
+void bridge2() {
   Mouse.click(MOUSE_RIGHT);
   delay(10);
   Keyboard.releaseAll();
